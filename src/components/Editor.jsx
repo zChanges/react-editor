@@ -49,6 +49,7 @@ class Editor extends React.Component {
     page.showGrid();
     editor.add(minimap);
     editor.add(itempannel);
+    this.page = page;
 
     editor.add(toolbar);
     editor.add(page);
